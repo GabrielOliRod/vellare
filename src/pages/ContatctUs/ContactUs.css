@@ -1,0 +1,183 @@
+/* ---------- GLOBAL ---------- */
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.page-root {
+  background: #f6f8f7;
+  color: #111814;
+  min-height: 100vh;
+}
+
+/* ---------- HEADER ---------- */
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-menu {
+  display: flex;
+  gap: 36px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn-primary {
+  background: #11d45f;
+  color: #102217;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary.full {
+  width: 100%;
+  padding: 14px;
+}
+
+/* ---------- MAIN ---------- */
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.title-block {
+  max-width: 700px;
+  text-align: center;
+}
+
+.title-block h1 {
+  font-size: 46px;
+  font-weight: 900;
+}
+
+.title-block p {
+  margin-top: 12px;
+  font-size: 17px;
+  color: #618971;
+}
+
+/* ---------- GRID ---------- */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  width: 100%;
+  gap: 60px;
+}
+
+/* ---------- FORM ---------- */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+label p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #dbe6df;
+  background: white;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+/* ---------- CONTACT AREA ---------- */
+.contact-area h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(17,212,95,0.2);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #11d45f;
+}
+
+.contact-label {
+  font-weight: 600;
+}
+
+.contact-value {
+  font-size: 14px;
+  color: #618971;
+}

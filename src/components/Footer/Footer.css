@@ -1,0 +1,64 @@
+/* FOOTER BASE */
+.footer {
+  background: white;
+  border-top: 1px solid #e5e7eb;
+  padding: 48px 20px;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Quando tela for maior */
+}
+
+@media (min-width: 640px) {
+  .footer-container {
+    flex-direction: row;
+  }
+}
+
+/* LOGO E TEXTO */
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-icon svg {
+  width: 24px;
+  height: 24px;
+  color: #11d45f;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* LINKS */
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #111;
+}
+
+.logo-icon img{
+    width: 30px;
+    height: 33px;
+}

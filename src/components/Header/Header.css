@@ -1,0 +1,111 @@
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background-color: rgba(246, 248, 247, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+}
+.dark .main-header {
+    background-color: rgba(16, 34, 23, 0.8);
+    border-bottom: 1px solid rgba(55, 65, 81, 0.5);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-gray-900);
+}
+
+.logo-icon img{
+    width: 30px;
+    height: 33px;
+}
+
+.logo-text {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+.nav-desktop {
+    display: none;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+@media (min-width: 768px) {
+    .nav-desktop {
+        display: flex;
+    }
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 2.25rem;
+}
+
+.nav-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-gray-800);
+    transition: color 0.2s;
+}
+.nav-link:hover {
+    color: var(--color-primary);
+}
+
+/* Botões */
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    color: var(--color-gray-900);
+    font-weight: 700;
+    border-radius: var(--border-radius-lg);
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* Header Button */
+.btn-header {
+    height: 2.5rem;
+    padding: 0 1rem;
+    font-size: 0.875rem;
+}
+
+.layout-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 960px;       /* Limite de largura */
+    margin-left: auto;      /* Centraliza horizontalmente */
+    margin-right: auto;     /* Centraliza horizontalmente */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-grow: 1;
+}
+
+

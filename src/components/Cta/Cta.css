@@ -1,0 +1,28 @@
+/* CTA */
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.cta p {
+  margin-top: 12px;
+  color: #555;
+  font-size: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta .btn-primary {
+  margin: 20px auto 0 auto;
+  display: inline-block;
+}
